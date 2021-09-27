@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+body {
+    background: linear-gradient(236.85deg, #0e8561 27.26%, #2c84d6 96.03%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 100px;
+    background-color: #F7F7F7;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    border-radius: 64px;
+    padding: 64px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil {
+    display: flex;
+}
+
+.titulo {
+    margin-left: 16px;
+}
+
+.titulo h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.titulo h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.tema button {
+    align-self: flex-end;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 8px 16px;
+    background: #F7F7F7;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    transition: 0.5s;
+}
+
+.perfil-foto {
+    max-height: 160px;
+    border-radius: 400px;
+    margin-bottom: 30px;
+}
+
+.github {
+    padding-right: 50px;
+    max-height: 40px;
+}
+
+.github:hover {
+ filter: brightness(0.8);
+}
+
+main {
+    display: flex;
+    background: linear-gradient(280.65deg, #67e0cc 27.49%, #cba9d1 83.19%);
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+}
+
+.projetos {
+    scrollbar-width: thin;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 32px;
+}
+
+.projetos-titulo {
+    list-style: none;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.projetos li {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 60px;
+
+}
+
+.projetos a {
+    color: #1c1c1c;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.projetos a:hover {
+   /* filter: brightness(2); */
+   color: #802069;
+   font-size: 28px;
+   transition: 1s;
+}
+
+.dark {
+    background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .container {
+    background: #333439;
+    color: #F6F6F6;
+}
+
+.dark .projetos {
+    color: #1C1C1C;
+}
+
+.dark .tema button {
+    color: #FFFFFF;
+    background: #1C1C1C;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: 2px solid #F7F7F7;
+}
+
+
+  .tema button:hover {
+      cursor: pointer;
+      filter: brightness(0.95)
+  }
+
+  .dark .tema button:hover {
+    cursor: pointer;
+    filter: brightness(1.2)
+  }
